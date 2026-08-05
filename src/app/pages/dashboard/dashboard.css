@@ -1,0 +1,43 @@
+.block-box{
+    display:block;
+}
+.box-inline h4{
+    display:inline;
+}
+.box-inline-block h4{
+    display: inline-block;
+    width:120px;
+}
+/* .container{
+    display:flex;
+} */
+/*column-reverse, row-reverse, row, column*/
+.box-row{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.box-justify-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container {
+    width: 500px;
+    height: 300px;
+    border: 2px solid #bdbdbd;
+    padding: 10px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.box {
+    width: 30px;
+    height: 30px;
+    background-color: #5ba8d3;
+    padding: 10px;
+    margin: 10px;
+}
