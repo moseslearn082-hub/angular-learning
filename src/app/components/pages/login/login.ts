@@ -8,5 +8,8 @@ import { Router } from '@angular/router';
   styleUrl: './login.css',
 })
 export class Login {
-  title = "PACB Login Portal";
+  constructor(private router: Router) {}
+  login() {
+    this.router.navigate(['/dashboard']);
+  }
 }
