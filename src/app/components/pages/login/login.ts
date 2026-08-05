@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -7,5 +8,11 @@ import { Component } from '@angular/core';
   styleUrl: './login.css',
 })
 export class Login {
-  title = "PACB Login Portal";
+
+  constructor(private router: Router) {}
+
+  login() {
+    this.router.navigate(['/dashboard']);
+  }
+
 }

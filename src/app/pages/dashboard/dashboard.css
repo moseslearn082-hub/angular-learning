@@ -1,0 +1,22 @@
+.box{
+    display:block;
+}
+.boxes{
+    display:inline-block;
+}
+.inbox{
+    display:inline-block;
+    width: 100px;
+    /* height:50px; */
+}
+.container{
+    display:flex;
+}
+.flex-row-container{
+    display:flex;
+    flex-direction:row;
+}
+.flex-col-container{
+    display:flex;
+    flex-direction:column;
+}
