@@ -34,10 +34,24 @@
     align-items: center;
 }
 
-.box {
+.box1 {
     width: 30px;
     height: 30px;
     background-color: #5ba8d3;
+    padding: 10px;
+    margin: 10px;
+}
+.box2 {
+    width: 30px;
+    height: 30px;
+    background-color: #5bd35b;
+    padding: 10px;
+    margin: 10px;
+}
+.box3 {
+    width: 30px;
+    height: 30px;
+    background-color: #ab5bd3;
     padding: 10px;
     margin: 10px;
 }
