@@ -6,10 +6,14 @@ import { Router } from '@angular/router';
   imports: [],
   templateUrl: './login.html',
   styleUrl: './login.css',
-})
+},)
 export class Login {
   constructor(private router: Router) {}
   login() {
     this.router.navigate(['/dashboard']);
   }
+  navigatedashboard() {
+    this.router.navigate(['/dashboard']);
+  }
 }
+

@@ -82,28 +82,33 @@
     border-color:#0f766e;
 }
 
-.login-btn{
-
-    width:100%;
-
+.login-btn-group{
+    margin-top:20px;
     padding:13px;
-
-    border:none;
-
     border-radius:8px;
-
-    background:#0f766e;
-
-    color:#fff;
-
     font-size:16px;
-
+    justify-content:center;
+    gap:10px;
+    display:flex;
+}
+.login-btn{
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    background:#0f766e;
+    color:#fff;
+    font-size:16px;
     cursor:pointer;
 }
-
-.login-btn:hover{
-
-    background:#115e59;
+.style-btn{
+    width:100%;
+    border:none;
+    border-radius:8px;
+    background:#0f766e;
+    color:#fff;
+    font-size:16px;
+    cursor:pointer;
 }
 
 .box{

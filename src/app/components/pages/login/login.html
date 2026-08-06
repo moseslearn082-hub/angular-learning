@@ -2,6 +2,7 @@
 
   <div class="login-card">
 
+
     <div class="login-header">
       <h1>Login</h1>
     </div>
@@ -17,12 +18,16 @@
         <label>Password</label>
         <input type="password" placeholder="Enter Password">
       </div>
-
-      <button class="login-btn" (click)="login()">
-        Login
-      </button>
+            <div class="login-btn-group">
+                <button class = "login-btn" (click)="login()">
+                  Login
+                </button>
+                <button class = "style-btn" (click)="navigatedashboard()">
+                  Style
+                </button>
+                </div>
+            </div>
 
     </div>
 
   </div>
-</div>
